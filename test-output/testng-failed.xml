@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="listeners.Listeners"/>
+  </listeners>
+  <test parallel="tests" name="ProductQuantityTest(failed)">
+    <classes>
+      <class name="tests.ProductQuantityTest">
+        <methods>
+          <include name="openApplication"/>
+          <include name="AddToCarttest" invocation-numbers="0"/>
+          <include name="closure"/>
+        </methods>
+      </class> <!-- tests.ProductQuantityTest -->
+    </classes>
+  </test> <!-- ProductQuantityTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

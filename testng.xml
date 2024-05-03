@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests">
+	<listeners>
+     <listener class-name="listeners.Listeners"/>
+  </listeners>
+  
+  <test name="ProductQuantityTest">
+    <classes>
+      <class name="tests.ProductQuantityTest"/>
+    </classes>
+  </test>
+  
+  <test name="RemoveFromCartTest">
+    <classes>
+      <class name="tests.RemoveFromCartTest"/>
+    </classes>
+  </test>
+  
+  <test name="SaveForLaterTest">
+    <classes>
+      <class name="tests.SaveForLaterTest"/>
+    </classes>
+  </test>
+  
+  <test name="SearchTest">
+    <classes>
+      <class name="tests.SearchTest"/>
+    </classes>
+  </test>
+  
+  <test name="AddToCartTest">
+    <classes>
+      <class name="tests.AddToCartTest"/>
+    </classes>
+  </test>
+  
+  <test name="ProductDetailsTest">
+    <classes>
+      <class name="tests.ProductDetailsTest"/>
+    </classes>
+  </test>
+    <test name="Login">
+    <classes>
+      <class name="tests.LoginTest"/>
+    </classes>
+  </test>
+    <test name="Checkout">
+    <classes>
+      <class name="tests.CheckoutTest"/>
+    </classes>
+  </test>
+   <test name="Language">
+    <classes>
+      <class name="tests.LanguageTest"/>
+    </classes>
+  </test>
+  
+  
+</suite>
